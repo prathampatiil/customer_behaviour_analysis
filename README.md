@@ -91,45 +91,38 @@ Customers were divided into age groups:
 Purchase frequency categories were converted into approximate day intervals for quantitative analysis.
 
 ## Exploratory Data Analysis
-
 The analysis covers:
 
 ### Customer Demographics
-
 - Age distribution
 - Gender distribution
 - Age groups
 - Location-wise customers
 
 ### Product Analysis
-
 - Most purchased products
 - Product categories
 - Seasonal purchasing behavior
 - Product ratings
 
 ### Purchase Analysis
-
 - Purchase amount distribution
 - Average purchase amount
 - Revenue analysis
 - Customer spending patterns
 
 ### Discount and Promotion Analysis
-
 - Discount usage
 - Promotional behavior
 - Relationship between discounts and spending
 
 ### Customer Behavior
-
 - Previous purchases
 - Purchase frequency
 - Subscription behavior
 - Customer loyalty
 
 ## SQL Analysis
-
 The processed dataset was loaded into PostgreSQL for business-oriented SQL analysis.
 
 The SQL queries answer questions such as:
@@ -180,10 +173,21 @@ SQL Analysis
 Power BI Dashboard
      ↓
 Business Insights
+```
+## How to Run
+### 1. Clone the Repository
+git clone <your-repository-url>
+cd customer_behaviour_analysis
+### 2. Install Required Libraries
+pip install pandas matplotlib seaborn sqlalchemy psycopg2-binary
+### 3. Run the Jupyter Notebook
+Open:
+Customer_Shopping_Behavior_Analysis.ipynb
+Run the notebook cells sequentially.
 
+### 4. PostgreSQL Setup
+Create a PostgreSQL database and update the local database connection details before running the PostgreSQL section.
 
 ## Project Outcome
-
 This project demonstrates an end-to-end data analytics workflow using Python, SQL, PostgreSQL, and Power BI.
-
 It showcases practical skills in transforming raw customer data into structured analysis and business-oriented insights.

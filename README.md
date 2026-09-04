@@ -164,7 +164,7 @@ The processed data can be used to build an interactive Power BI dashboard coveri
 - Location-based analysis
 
 ## Project Workflow
-
+```text
 Raw Dataset
      ↓
 Data Cleaning
@@ -180,3 +180,10 @@ SQL Analysis
 Power BI Dashboard
      ↓
 Business Insights
+
+
+## Project Outcome
+
+This project demonstrates an end-to-end data analytics workflow using Python, SQL, PostgreSQL, and Power BI.
+
+It showcases practical skills in transforming raw customer data into structured analysis and business-oriented insights.

@@ -142,20 +142,6 @@ SQL queries are available in:
 
 `customer_behaviour_sql_queries.sql`
 
-## Power BI Dashboard
-
-The processed data can be used to build an interactive Power BI dashboard covering:
-
-- Revenue and sales KPIs
-- Customer demographics
-- Product performance
-- Discount analysis
-- Subscription analysis
-- Shipping analysis
-- Customer ratings
-- Purchase frequency
-- Location-based analysis
-
 ## Project Workflow
 ```text
 Raw Dataset
